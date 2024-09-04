@@ -13,6 +13,9 @@ public class GoodServiceApplication {
     }
     @Bean
     public RestTemplate restTemplate() {
+
         return new RestTemplate();
     }
+
+
 }
