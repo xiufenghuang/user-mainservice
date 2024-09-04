@@ -13,4 +13,5 @@ import org.springframework.web.bind.annotation.RestController;
 public class GoodController{
     @GetMapping("/good")
     public String getGood(@RequestParam String goodId){// 模拟产品信息
-         return"Good   : "+goodId;}}
+         return"Good   : "+goodId;}
+}
